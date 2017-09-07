@@ -1,44 +1,44 @@
-zh-CN:
+en:
   activerecord:
     attributes:
       spree/address:
-        address1: 联系地址
-        address2: 联系地址 (续)
-        city: 市
-        country: 国家
-        firstname: 名字
-        lastname: 姓氏
-        phone: 联系电话
-        state: 省
-        zipcode: 邮政编码
+        address1: Address
+        address2: Address (contd.)
+        city: City
+        country: Country
+        firstname: First Name
+        lastname: Last Name
+        phone: Phone
+        state: State
+        zipcode: Zip Code
       spree/calculator/tiered_flat_rate:
-        preferred_base_amount: 最低消费金额
-        preferred_tiers: 消费者
+        preferred_base_amount: Base Amount
+        preferred_tiers: Tiers
       spree/calculator/tiered_percent:
-        preferred_base_percent: 最低百分比
-        preferred_tiers: 消费者
+        preferred_base_percent: Base Percent
+        preferred_tiers: Tiers
       spree/country:
         iso: ISO
         iso3: ISO3
         iso_name: ISO Name
-        name: 名字
+        name: Name
         numcode: ISO Code
       spree/credit_card:
         base: ''
-        cc_type: 类型
-        month: 月
-        number: 号码
-        verification_value: 验证码
-        year: 年
-        name: 名字
+        cc_type: Type
+        month: Month
+        number: Number
+        verification_value: Verification Value
+        year: Year
+        name: Name
       spree/inventory_unit:
-        state: 状态
+        state: State
       spree/line_item:
-        price: 单价
-        quantity: 数量
+        price: Price
+        quantity: Quantity
       spree/option_type:
-        name: 名字
-        presentation: 描述
+        name: Name
+        presentation: Presentation
       spree/order:
         checkout_complete: Checkout Complete
         completed_at: Completed At
@@ -148,8 +148,8 @@ zh-CN:
         name: Name
       spree/user:
         email: Email
-        password: 密码
-        password_confirmation: 确认密码
+        password: Password
+        password_confirmation: Password Confirmation
       spree/variant:
         cost_currency: Cost Currency
         cost_price: Cost Price
@@ -361,7 +361,7 @@ zh-CN:
       send_instructions: You will receive an email with instructions about how to confirm your account in a few minutes.
     failure:
       inactive: Your account was not activated yet.
-      invalid: 无效的电子邮件或密码.
+      invalid: Invalid email or password.
       invalid_token: Invalid authentication token.
       locked: Your account is locked.
       timeout: Your session expired, please sign in again to continue.
@@ -371,7 +371,7 @@ zh-CN:
       confirmation_instructions:
         subject: Confirmation instructions
       reset_password_instructions:
-        subject: 重置密码指令
+        subject: Reset password instructions
       unlock_instructions:
         subject: Unlock Instructions
     oauth_callbacks:
@@ -382,9 +382,9 @@ zh-CN:
       unlocked: Your account was successfully unlocked. You are now signed in.
     user_passwords:
       user:
-        cannot_be_blank: 您的密码不能为空.
-        send_instructions: 您将收到有关如何重置您的密码在几分钟内说明的电子邮件.
-        updated: 您的密码更改成功。你现在已经签到了.
+        cannot_be_blank: Your password cannot be blank.
+        send_instructions: You will receive an email with instructions about how to reset your password in a few minutes.
+        updated: Your password was changed successfully. You are now signed in.
     user_registrations:
       destroyed: Bye! Your account was successfully cancelled. We hope to see you again soon.
       inactive_signed_up: You have signed up successfully. However, we could not sign you in because your account is %{reason}.
@@ -540,7 +540,7 @@ zh-CN:
     back_to_resource_list: 'Back To %{resource} List'
     back_to_payment: Back To Payment
     back_to_rma_reason_list: Back To RMA Reason List
-    back_to_store: Back to Store
+    back_to_store: Go Back To Store
     back_to_users_list: Back To Users List
     backorderable: Backorderable
     backorderable_default: Backorderable default
@@ -600,7 +600,7 @@ zh-CN:
     configurations: Configurations
     confirm: Confirm
     confirm_delete: Confirm Deletion
-    confirm_password: 确认密码
+    confirm_password: Password Confirmation
     continue: Continue
     continue_shopping: Continue shopping
     cost_currency: Cost Currency
@@ -712,7 +712,7 @@ zh-CN:
         no_user_or_email_specified: You need to login or provide your email before applying this coupon code.
         no_user_specified: You need to login before applying this coupon code.
         not_first_order: This coupon code can only be applied to your first order.
-    email: 电子邮件
+    email: Email
     empty: Empty
     empty_cart: Empty Cart
     enable_mail_delivery: Enable Mail Delivery
@@ -764,7 +764,7 @@ zh-CN:
     flat_percent: Flat Percent
     flat_rate_per_order: Flat Rate
     flexible_rate: Flexible Rate
-    forgot_password: 找回密码?
+    forgot_password: Forgot Password?
     free_shipping: Free Shipping
     free_shipping_amount: "-"
     front_end: Front End
@@ -779,7 +779,6 @@ zh-CN:
     has_no_shipped_units: has no shipped units
     height: Height
     home: Home
-    help_center: Help Center
     i18n:
       available_locales: Available Locales
       fields: Fields
@@ -806,7 +805,7 @@ zh-CN:
     info_number_of_skus_not_shown:
       one: "and one other"
       other: "and %{count} others"
-    instructions_to_reset_password: 请在下面的表格上输入您的邮件
+    instructions_to_reset_password: Please enter your email on the form below
     insufficient_stock: Insufficient stock available, only %{on_hand} remaining
     insufficient_stock_lines_present: Some line items in this order have insufficient quantity.
     intercept_email_address: Intercept Email Address
@@ -854,13 +853,13 @@ zh-CN:
     logged_in_as: Logged in as
     logged_in_succesfully: Logged in successfully
     logged_out: You have been logged out.
-    login: 登录
-    login_as_existing: 登录为已有的用户
-    login_failed: 登录验证失败.
-    login_name: 登录
-    logout: 退出
-    look_for_similar_items: 寻找类似的产品
-    make_refund: 退款
+    login: Login
+    login_as_existing: Login as Existing Customer
+    login_failed: Login authentication failed.
+    login_name: Login
+    logout: Logout
+    look_for_similar_items: Look for similar items
+    make_refund: Make refund
     make_sure_the_above_reimbursement_amount_is_correct: Make sure the above reimbursement amount is correct
     manage_promotion_categories: Manage Promotion Categories
     manual_intervention_required: Manual intervention required
@@ -889,7 +888,7 @@ zh-CN:
     name_or_sku: Name or SKU (enter at least first 3 characters of product name)
     new: New
     new_adjustment: New Adjustment
-    new_customer: 新用户注册
+    new_customer: New Customer
     new_customer_return: New Customer Return
     new_country: New Country
     new_image: New Image
@@ -967,7 +966,7 @@ zh-CN:
     option_values: Option Values
     optional: Optional
     options: Options
-    or: 或
+    or: or
     or_over_price: ! '%{price} or over'
     order: Order
     order_adjustments: Order adjustments
@@ -1020,7 +1019,7 @@ zh-CN:
       next_page: next page &raquo;
       previous_page: ! '&laquo; previous page'
       truncate: ! '&hellip;'
-    password: 密码
+    password: Password
     paste: Paste
     path: Path
     pay: pay
@@ -1184,7 +1183,7 @@ zh-CN:
     reports: Reports
     resellable: Resellable
     resend: Resend
-    reset_password: 重置密码
+    reset_password: Reset my password
     response_code: Response Code
     resume: resume
     resumed: Resumed
